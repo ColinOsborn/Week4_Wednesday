@@ -1,6 +1,9 @@
 body {
     background: url("images/brickwall.png");
 }
+.body-change {
+background: url("images/dark_embroidery.png");
+}
 
 h1 {
   text-align: center;
@@ -106,6 +109,10 @@ li {
   width: 300px;
 }
 
+.reference-contact {
+  display: none;
+}
+
 .reference-contact.hidden {
   visibility:hidden;
 }
@@ -122,4 +129,7 @@ li {
   background:#dbdbdb;
   cursor:pointer;
   color: #556270;
+}
+#contact-button {
+  margin-top:50px;
 }
